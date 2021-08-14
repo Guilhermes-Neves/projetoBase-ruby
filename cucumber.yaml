@@ -1,0 +1,12 @@
+---
+  default: -p qa -p headless -p html -p progress
+  ci: -p qa -p headless -p json -p progress
+  qa: ENV_TYPE=qa
+  uat: ENV_TYPE=uat
+  firefox: BROWSER=fireox
+  chrome: BROWSER=chrome
+  headless: BROWSER=headless
+  html: --format html --out=log/report.html
+  json: --format json --out=log/report.json
+  pretty: --format pretty
+  progress: --format progress

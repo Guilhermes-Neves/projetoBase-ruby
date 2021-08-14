@@ -1,0 +1,11 @@
+---
+url: "ambienteDeUat"
+database:
+  host: "host"
+  dbname: "nomeDoBanco"
+  user: "usuario"
+  password: "senha"
+users:
+  admin:
+    email: "teste@teste.com"
+    pass: "123"
